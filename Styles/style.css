@@ -17,11 +17,11 @@ section {
 }
 
 h2 {
-    font-size:30px;
+    font-size:35px;
 }
 
 h3 {
-    font-size:25px;
+    font-size:28px;
 }
 
 p {
@@ -58,13 +58,13 @@ a {
 }
 
 .basic-nav {
-    color:#7CDBD5;
+    color:#317ef9;
     background-color:white;
 }
 
 .fixed-nav {
     box-shadow:0px 1px 2px rgba(0,0,0,0.2);
-    background-color: #7CDBD5;
+    background-color: #317ef9;
     color:white;
 }
 
@@ -75,7 +75,7 @@ nav {
 
 }
 #nav h1 {
-    font-size:26px;
+    font-size:30px;
     font-weight: bold;
 }
 
@@ -87,7 +87,7 @@ nav ul li {
     padding:5px;
     display:inline-block;
     margin:5px;
-    color:#7CDBD5;
+    color:#317ef9;
 }
 
 nav ul li hr {
@@ -113,20 +113,20 @@ nav ul li hr {
     background-position:center center;
 }
 
-#cover a {
+#cover .learn-more-btn {
     position:absolute;
     color:black;
     text-decoration: none;
     padding: 10px 30px;
     font-weight:bold;
-    color:#7CDBD5;
+    color:#317ef9;
     background-color:rgba(0,0,0,0.2);
-    border:2px solid #7CDBD5;
+    border:2px solid #317ef9;
     top:70%;
 }
 
-#cover a:hover {
-    background-color:rgba(255,255,255,0.4);
+#cover .learn-more-btn:hover {
+    background-color:rgba(255,255,255,0.8);
 }
 
 #cover h3 {
@@ -157,7 +157,7 @@ nav ul li hr {
 
 .about-container {
     margin-top:20px;
-    flex-basis: 40%;
+    flex-basis: 80%;
     min-height:350px;
     text-align:center;
     border: 1px solid black;
@@ -191,6 +191,17 @@ nav ul li hr {
 
 .about-container ul {
     list-style-type: none;
+    margin:20px;
+}
+.skill-container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill {
+    max-width:30%;
+    max-height:100px;
     margin:20px;
 }
 
@@ -331,14 +342,14 @@ nav ul li hr {
     margin:5px;
     padding: 6px 20px;
     font-size:25px;
-    background-color:#7CDBD5;
+    background-color:#317ef9;
     border-radius:5px;
     border:1px solid #ccc;
     color:white;
 }
 
 #contact form input[type=submit]:hover {
-    background-color:rgba(124, 219, 213, 0.582);
+    background-color:rgba(49, 126, 249,0.7);
     cursor:pointer;
 }
 
@@ -360,7 +371,7 @@ nav ul li hr {
     flex-direction:row;
     align-items:center;
     justify-content: space-around;
-    background-color:#7CDBD5;
+    background-color:#317ef9;
     box-shadow:0px -2px 2px rgba(0,0,0,0.2);
     color:white;
 }
